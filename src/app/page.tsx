@@ -1,4 +1,6 @@
 import { ChevronDown, ChevronUp, FileCode, Github, UserCheck, Users } from "lucide-react";
+import Image from "next/image";
+import { Repository } from "./components/Repository";
 
 export default function Home() {
   return (
@@ -49,19 +51,7 @@ export default function Home() {
               <button className="px-4 py-2 rounded-sm flex gap-1 items-center">Ordenar <ChevronUp className="w-4" /> </button>
             </div>
             <div>
-              <a href="">
-                <div className="py-5 border-b border-b-slate-800 text-slate-300">
-                  <div className="flex gap-2 items-center pb-2">
-                    <FileCode />
-                    <span className="text-xl">Nome do repositorio</span>
-                    <span className="text-xs ml-2 outline outline-1 rounded-full px-2">Public</span>
-                  </div>
-                  <span className="text-slate-300 font-extralight">Projeto para vaga de frontend na desbravador</span>
-                  <div className="mt-2">
-                    <span className="text-xs border rounded-full border-purple-800 bg-purple-800 text-slate-300 px-2 py-1">Typescript</span>
-                  </div>
-                </div>
-              </a>
+              <Repository />
             </div>
           </div>
         </div>
