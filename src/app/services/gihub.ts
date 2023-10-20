@@ -10,3 +10,15 @@ export async function getUser(username: string) {
     console.log(error)
   }
 }
+
+export async function getReposByUsername(username: string) {
+  try{
+    const response = await axios.get(`https://api.github.com/users/${username}/repos`)
+    console.log('response data')
+    console.log(response.data)
+    return response.data
+  }catch(error) {
+    console.log(error)
+  }
+}
+
