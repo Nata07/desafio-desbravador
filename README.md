@@ -1,5 +1,8 @@
 # Projeto de Teste para Desbravador
 
+Pode acessar a aplicação aqui: 
+- [Acessar Aplicação](https://desafio-desbravador.vercel.app/) 
+
 ![Layout da Aplicação](public/layout.png)
 
 Este é um projeto de teste criado para a empresa Desbravador. O objetivo deste projeto é demonstrar as habilidades e conhecimentos com desenvolvimento frontend
