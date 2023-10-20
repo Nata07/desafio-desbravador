@@ -6,9 +6,11 @@ export interface Repository {
   private: boolean;
   language: string;
   stargazers_count: number;
+  full_name: string;
 }
 
 export interface RepositoryItemProps {
-  repository: Repository
+  repository: Repository;
+  detail?: boolean
 }
 
