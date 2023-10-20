@@ -16,7 +16,7 @@ export function RepositoryData({ repository, detail }: RepositoryItemProps) {
         <div className="mt-2 flex flex-row items-center">
           {repository?.language && <span className="text-xs border rounded-full border-purple-800 bg-purple-800 text-slate-300 px-2 py-1">{repository?.language}</span>}
           <Link href={!detail ? `/repository/${repository?.full_name}` : repository.html_url } className="ml-auto flex flex-row gap-2 items-center text-purple-300">
-            <span className="text-sm">Ver Detalhes </span>
+            <span className="text-sm">{!detail ? `Ver Detalhes` : `Ver repositório`} </span>
             <MoveRight className="w-5 h-5"/>
           </Link>
         </div>

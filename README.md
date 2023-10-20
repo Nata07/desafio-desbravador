@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto de Teste para Desbravador
+
+![Layout da Aplicação](public/layout.png)
+
+Este é um projeto de teste criado para a empresa Desbravador. O objetivo deste projeto é demonstrar as habilidades e conhecimentos com desenvolvimento frontend
 
 ## Getting Started
 

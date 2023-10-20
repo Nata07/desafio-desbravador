@@ -41,7 +41,8 @@ export default function RepositoryItem({ params }: Props) {
           </Link>
         </div>
       </header>
-      <div className="max-w-5xl w-full">
+      <div className="max-w-5xl w-full px-10">
+        <h1 className="text-2xl py-4 text-slate-300">Detalhes</h1>
         {repository && <RepositoryData repository={repository} detail /> }
       </div>
     </div>
